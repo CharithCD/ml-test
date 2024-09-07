@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load your models
 svd_model = joblib.load('svd_model_02.pkl')
-cosine_sim = joblib.load('cosine_similarity_truncated.pkl')
+cosine_sim = joblib.load('cosine_similarity_truncated_compressed.pkl')
 tfidf = joblib.load('tfidf_vectorizer_truncated.pkl')
 
 # Load your dataset
